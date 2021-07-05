@@ -1,12 +1,13 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
 
 const styles = StyleSheet.create({
     container: {
         width: '100%',
-        height: 400,
+        height: Dimensions.get('window').height,
     },
     video: {
         position: 'absolute',
+        margin: 0,
         top: 0,
         left: 0,
         bottom: 0,
